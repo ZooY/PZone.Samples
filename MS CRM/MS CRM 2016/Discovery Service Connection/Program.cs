@@ -5,11 +5,11 @@ using Microsoft.Xrm.Sdk.Client;
 using Microsoft.Xrm.Sdk.Discovery;
 
 
-namespace Discovery_Service_Connection
+namespace PZone.Samples
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var discoverServiceUrl = "http://host/XRMServices/2011/Discovery.svc";
 
