@@ -107,15 +107,13 @@ namespace PZone.Samples
             return new ApplicationSignInManager(context.GetUserManager<ApplicationUserManager>(), context.Authentication, context.Get<AccountService>());
         }
 
-        public async override Task<SignInStatus> PasswordSignInAsync(string userName, string password, bool isPersistent, bool shouldLockout)
+        public override async Task<SignInStatus> PasswordSignInAsync(string userName, string password, bool isPersistent, bool shouldLockout)
         {
-            if (await _service.SignIn(userName, password))
-            {
-                var user = UserManager.FindByNameAsync(userName);
-                await SignInAsync(user.Result, isPersistent, false);
-                return SignInStatus.Success;
-            }
-            return SignInStatus.Failure;
+            if (!await _service.SignIn(userName, password))
+                return SignInStatus.Failure;
+            var user = UserManager.FindByNameAsync(userName);
+            await SignInAsync(user.Result, isPersistent, false);
+            return SignInStatus.Success;
         }
     }
 }
