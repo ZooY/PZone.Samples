@@ -14,7 +14,8 @@ namespace PZone.Samples
         {
             var serviceUrl = "http://crmdevapp01/DEV01/XRMServices/2011/Organization.svc";
 
-            var contactRef = new EntityReference("contact", new Guid("{B409D332-C5B7-E611-80C4-005056A5013C}"));
+            var contactId = new Guid("{B409D332-C5B7-E611-80C4-005056A5013C}");
+            var contactRef = new EntityReference("contact", contactId);
 
             var credentials = new ClientCredentials();
             credentials.Windows.ClientCredential = CredentialCache.DefaultNetworkCredentials;
