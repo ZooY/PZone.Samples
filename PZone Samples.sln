@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity Metadata", "MS CRM\M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plug-in Static State", "MS CRM\MS CRM 2016\Plug-in Static State\Plug-in Static State.csproj", "{E619D334-056E-459C-A0F1-815436C795F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow Static State", "MS CRM\MS CRM 2016\Workflow Static State\Workflow Static State.csproj", "{0B7EC36C-6BBA-4CD7-98D3-295E90687E63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{E619D334-056E-459C-A0F1-815436C795F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E619D334-056E-459C-A0F1-815436C795F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E619D334-056E-459C-A0F1-815436C795F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B7EC36C-6BBA-4CD7-98D3-295E90687E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B7EC36C-6BBA-4CD7-98D3-295E90687E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B7EC36C-6BBA-4CD7-98D3-295E90687E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B7EC36C-6BBA-4CD7-98D3-295E90687E63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,5 +87,6 @@ Global
 		{99FB0E28-7713-44B9-A2CA-A987D46A2F00} = {4CEA8F0F-D0FA-4D64-A0EC-ED1717D8C369}
 		{51B102C5-1A9C-43CD-8E50-929EE229F467} = {4CEA8F0F-D0FA-4D64-A0EC-ED1717D8C369}
 		{E619D334-056E-459C-A0F1-815436C795F1} = {4CEA8F0F-D0FA-4D64-A0EC-ED1717D8C369}
+		{0B7EC36C-6BBA-4CD7-98D3-295E90687E63} = {4CEA8F0F-D0FA-4D64-A0EC-ED1717D8C369}
 	EndGlobalSection
 EndGlobal
