@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <script>
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+
+    var cx = 230,
+        cy = 200;
+
+    function toRadians(deg) {
+        return (deg * Math.PI / 180);
+    }
+
+    function addDegree(a, b) {
+        var c = a + b;
+        return c > 360 ? c - 360 : c;
+    }
+
+    function getDegree(a) {
+        return (a * 360) / 100;
+    }
+
+    function draw(start, percent, color) {
+        var end = addDegree(start, getDegree(percent));
+        ctx.fillStyle = color;
+        ctx.beginPath();
+        ctx.moveTo(cx, cy);
+        ctx.arc(cx, cy, 100, toRadians(start), toRadians(end));
+        ctx.lineTo(cx, cy);
+        ctx.closePath();
+        ctx.fill();
+        return end;
+    }
+
+    function drawLine(start, percent) {
+        var sectorDergee = getDegree(percent);
+        var degree = addDegree(start, sectorDergee);
+        var x = cx + Math.cos(toRadians(degree)).toFixed(2) * 100;
+        var y = cy + Math.sin(toRadians(degree)).toFixed(2) * 100;
+        ctx.strokeStyle = 'white';
+        ctx.beginPath();
+        ctx.moveTo(cx, cy);
+        ctx.lineTo(x, y);
+        ctx.stroke();
+        return degree;
+    }
+
+    function drawLabel(start, percent, text) {
+        var sectorDergee = getDegree(percent),
+            nextDegree = addDegree(start, sectorDergee),
+            degree = nextDegree - (sectorDergee / 2);
+        var x = cx + Math.cos(toRadians(degree)).toFixed(2) * 150;
+        var y = cy + Math.sin(toRadians(degree)).toFixed(2) * 150;
+        ctx.strokeStyle = '#C0C5C9';
+        ctx.beginPath();
+        ctx.moveTo(cx, cy);
+        ctx.lineTo(x, y);
+
+        var leftRightDirection;
+        if (degree > 90 && degree < 270) {
+            ctx.textAlign = "end";
+            leftRightDirection = -1;
+        } else {
+            ctx.textAlign = "start";
+            leftRightDirection = 1;
+        }
+
+        var lineHeight = 14,
+            textLen = text.length,
+            topBottomDirection = degree > 180 || (degree < 0 && degree > -180) ? -1 : 1,
+            val = topBottomDirection * (10 + textLen * lineHeight + lineHeight);
+        ctx.lineTo(x, y + val);
+        topBottomDirection === -1 && (y += val);
+        y += 3 + lineHeight;
+
+        ctx.fillStyle = 'black';
+
+        ctx.font = 'normal 12px Arial';
+        x += leftRightDirection * 5;
+        for (var i = 0; i < textLen; i++)
+            ctx.fillText(text[i], x, y), y += lineHeight;
+
+        ctx.font = 'bold 12px Arial';
+        ctx.fillText(percent + '%', x, y);
+
+        ctx.stroke();
+
+        return nextDegree;
+    }
+
+    var values = [
+        { percent: 29, color: '#F48D64', labels: ['Материнский', 'капитал'] },
+        { percent: 7, color: '#FBCEBB', labels: ['Инвестиционный', 'доход ИПО'] },
+        { percent: 13, color: '#ECEDEF', labels: ['Инвестиционный', 'доход ОПС'] },
+        { percent: 24, color: '#F25D23', labels: ['Поступление', 'ОПС'] },
+        { percent: 19, color: '#D9DDE0', labels: ['Взносы ИПО'] },
+        { percent: 8, color: '#C0C5C9', labels: ['Программа', 'софинансирования'] }
+    ];
+
+    //var values = [
+    //    { percent: 67, color: '#F48D64', labels: ['Страховые взносы', 'на НЧ'] },
+    //    { percent: 17.5, color: '#FBCEBB', labels: ['ИД на страховые', 'взносы на НЧ'] },
+    //    { percent: 10.3, color: '#ECEDEF', labels: ['Доп. страховые', 'взносы'] },
+    //    { percent: 4.1, color: '#F25D23', labels: ['Софинансирование'] },
+    //    { percent: 1, color: '#D9DDE0', labels: ['ИД на доп.', 'взносы'] },
+    //    { percent: 0, color: '#C0C5C9', labels: ['ИД на', 'софинансирование'] }
+    //];
+
+    var len = values.length;
+
+    var start = 270;
+    for (var i = 0; i < len; i++) {
+        var value = values[i];
+        nextStart = drawLabel(start, value.percent, value.labels);
+        draw(start, value.percent, value.color);
+        start = nextStart;
+    }
+    start = 270;
+    for (var i = 0; i < len; i++)
+        start = drawLine(start, values[i].percent);
+
+    </script>
+</body>
+</html>
