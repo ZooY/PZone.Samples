@@ -41,7 +41,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charts", "Web\JS\Charts\Cha
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{73A08766-1AFB-4370-898D-9F9F03AE0D1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File to Base64 String", "File to Base64 String\File to Base64 String.csproj", "{CEC3550E-CDDD-4ED6-84B2-3C7B06ED8A7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File to Base64 String", "Files\File to Base64 String\File to Base64 String.csproj", "{CEC3550E-CDDD-4ED6-84B2-3C7B06ED8A7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
