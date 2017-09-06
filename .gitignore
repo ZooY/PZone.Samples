@@ -28,3 +28,9 @@ Files/File to Base64 String/bin/
 Files/File to Base64 String/obj/
 MySQL Connection/bin/
 MySQL Connection/obj/
+MQ/RabbitMQ/RabbitMQ Consumer/bin/
+MQ/RabbitMQ/RabbitMQ Consumer/obj/
+MQ/RabbitMQ/RabbitMQ Read Queue/bin/
+MQ/RabbitMQ/RabbitMQ Read Queue/obj/
+MQ/RabbitMQ/RabbitMQ Write to Queue/bin/
+MQ/RabbitMQ/RabbitMQ Write to Queue/obj/
