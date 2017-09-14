@@ -6,7 +6,7 @@ using RabbitMQ.Client;
 namespace PZone.Samples
 {
     /// <summary>
-    ////Jnghfdrf одного сообщения в точку обмена
+    /// Отправка одного сообщения в точку обмена.
     /// </summary>
     class Program
     {

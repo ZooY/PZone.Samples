@@ -34,3 +34,12 @@ MQ/RabbitMQ/RabbitMQ Read Queue/bin/
 MQ/RabbitMQ/RabbitMQ Read Queue/obj/
 MQ/RabbitMQ/RabbitMQ Write to Queue/bin/
 MQ/RabbitMQ/RabbitMQ Write to Queue/obj/
+DB/MySQL/MySQL Connection/obj/
+MQ/RabbitMQ/Client-Server/RabbitMQ Lib/bin/
+MQ/RabbitMQ/Client-Server/RabbitMQ Lib/obj/
+MQ/RabbitMQ/Client-Server/RabbitMQ Server/bin/
+MQ/RabbitMQ/Client-Server/RabbitMQ Server/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+MQ/RabbitMQ/Client-Server/RabbitMQ Server/obj/
+MQ/RabbitMQ/RabbitMQ Client/bin/
+MQ/RabbitMQ/RabbitMQ Client/obj/
+DB/MySQL/MySQL Connection/bin/

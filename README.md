@@ -3,6 +3,11 @@
 * **DB**
   * MySQL
     * [MySQL Connection](https://github.com/ZooY/PZone.Samples/tree/master/MySQL%20Connection) - Пример подключения и выполнения запроса к базе данных MySQL с помощью c#. Подробное описание [тут](http://www.pzone.ru/develop/databases/use-mysql/).
+* **MQ**	
+  * RabbitMQ
+    * [RabbitMQ Consumer](https://github.com/ZooY/PZone.Samples/tree/master/MQ/RabbitMQ/RabbitMQ%20Consumer) - Пример создания прослушивателя очереди.
+    * [RabbitMQ Read Queue](https://github.com/ZooY/PZone.Samples/tree/master/MQ/RabbitMQ/RabbitMQ%20Read%20Queue) - Чтение одного сообщения из очереди RabbitMQ.
+    * [RabbitMQ Write to Queue](https://github.com/ZooY/PZone.Samples/tree/master/MQ/RabbitMQ/RabbitMQ%20Write%20to%20Queue) - Отправка одного сообщения в точку обмена.
 * **Web**
   * MVC
     * MVC 5
