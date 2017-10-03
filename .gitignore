@@ -43,3 +43,9 @@ MQ/RabbitMQ/Client-Server/RabbitMQ Server/obj/
 MQ/RabbitMQ/RabbitMQ Client/bin/
 MQ/RabbitMQ/RabbitMQ Client/obj/
 DB/MySQL/MySQL Connection/bin/
+CSharp/Async/bin/
+CSharp/Async/obj/
+MQ/RabbitMQ/RabbitMQ Async Consumer/bin/
+MQ/RabbitMQ/RabbitMQ Async Consumer/obj/
+Web/MVC/MVC 5/OWIN/bin/
+Web/MVC/MVC 5/OWIN/obj/
