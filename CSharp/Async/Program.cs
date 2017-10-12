@@ -9,7 +9,8 @@ namespace Async
         static void Main()
         {
             //new TaskAsync().Run();
-            new AwaitAsync().Run();
+            //new AwaitAsync().Run();
+            new AwaitNoResultAsync().Run();
 
             Console.WriteLine();
             Console.WriteLine("Press any key...");
@@ -90,6 +91,42 @@ namespace Async
             private Task<string> Wait()
             {
                 return Task.Run(() =>
+                {
+                    Console.WriteLine("Thread process 1");
+                    Thread.Sleep(1000);
+                    Console.WriteLine("Thread process 2");
+                    Thread.Sleep(1000);
+                    Console.WriteLine("Thread process 3");
+                    Thread.Sleep(1000);
+                    Console.WriteLine("Thread process 4");
+                    Thread.Sleep(1000);
+                    Console.WriteLine("Thread process 5");
+                    return "OK";
+                });
+            }
+        }
+
+
+        public class AwaitNoResultAsync
+        {
+            public async void Run()
+            {
+                Console.WriteLine("Main process 1");
+
+                var task = Wait();
+
+                Thread.Sleep(500);
+                Console.WriteLine("Main process 2");
+
+                task.Wait();
+                Console.WriteLine("OK");
+
+                Console.WriteLine("Main process 3");
+            }
+
+            private async Task Wait()
+            {
+                await Task.Run(() =>
                 {
                     Console.WriteLine("Thread process 1");
                     Thread.Sleep(1000);
