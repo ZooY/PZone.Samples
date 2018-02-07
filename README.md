@@ -10,6 +10,8 @@
     * [RabbitMQ Consumer](https://github.com/ZooY/PZone.Samples/tree/master/MQ/RabbitMQ/RabbitMQ%20Consumer) - Пример создания прослушивателя очереди.
     * [RabbitMQ Read Queue](https://github.com/ZooY/PZone.Samples/tree/master/MQ/RabbitMQ/RabbitMQ%20Read%20Queue) - Чтение одного сообщения из очереди RabbitMQ.
     * [RabbitMQ Write to Queue](https://github.com/ZooY/PZone.Samples/tree/master/MQ/RabbitMQ/RabbitMQ%20Write%20to%20Queue) - Отправка одного сообщения в точку обмена.
+* **Net**
+  * [CheckAvailability](https://github.com/ZooY/PZone.Samples/tree/master/Net/CheckAvailability) - Примеры проверки доступности различных ресурсов: физических серверов, программных веб-серверов, сайтов.
 * **Web**
   * MVC
     * MVC 5
@@ -21,6 +23,7 @@
     * [Create Annotation](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Create%20Annotation) - Пример создания примечания, в том числе с вложением.
     * [Discovery Service Connection](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Discovery%20Service%20Connection) - Пример настройки подключения к сервису обнаружения (Discovery Service) в Microsoft Dynamics CRM 2016.
     * [Entity Metadata](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Entity%20Metadata) - Пример получения метаданных сущностей CRM.
+    * [Picklist Items](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Picklist%20Items) - Получение списка возможных значений атрибута типа Picklist.
     * [Plug-in Static State](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016) - Тестовый плагин для проверки сохранения состояние класса между вызовами.
     * [WebResource Dependencies](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/WebResource%20Dependencies) - Пример получения зависимостей для веб-ресурса.
     * [Workflow Static State](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Workflow%20Static%20State) - Тестовое действие Workflow для проверки сохранения состояние класса между вызовами.
