@@ -5,6 +5,8 @@
 * **DB**
   * MySQL
     * [MySQL Connection](https://github.com/ZooY/PZone.Samples/tree/master/MySQL%20Connection) - Пример подключения и выполнения запроса к базе данных MySQL с помощью c#. Подробное описание [тут](http://www.pzone.ru/develop/databases/use-mysql/).
+* **Dependency Injection**	
+  * [Ninject Deserialization](https://github.com/ZooY/PZone.Samples/tree/master/DI/Ninject%20Deserialization) - Ninject + Newtonsoft.Json: десериализация в интерфейсы.
 * **MQ**	
   * RabbitMQ
     * [RabbitMQ Consumer](https://github.com/ZooY/PZone.Samples/tree/master/MQ/RabbitMQ/RabbitMQ%20Consumer) - Пример создания прослушивателя очереди.
