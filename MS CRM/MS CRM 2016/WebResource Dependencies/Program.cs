@@ -10,7 +10,7 @@ using Microsoft.Xrm.Sdk.Client;
 using Microsoft.Xrm.Sdk.Query;
 
 
-namespace WebResource_Dependencies
+namespace PZone.Samples
 {
     class Program
     {

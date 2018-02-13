@@ -25,7 +25,8 @@
     * [Create Annotation](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Create%20Annotation) - Пример создания примечания, в том числе с вложением.
     * [Discovery Service Connection](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Discovery%20Service%20Connection) - Пример настройки подключения к сервису обнаружения (Discovery Service) в Microsoft Dynamics CRM 2016.
     * [Entity Metadata](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Entity%20Metadata) - Пример получения метаданных сущностей CRM.
-    * [Picklist Items](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Picklist%20Items) - Получение списка возможных значений атрибута типа Picklist.
+    * [Plug-in Dependencies](https://github.com) - Пример получения зависимостей для плагина.
+	* [Picklist Items](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Picklist%20Items) - Получение списка возможных значений атрибута типа Picklist.
     * [Plug-in Static State](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016) - Тестовый плагин для проверки сохранения состояние класса между вызовами.
     * [WebResource Dependencies](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/WebResource%20Dependencies) - Пример получения зависимостей для веб-ресурса.
     * [Workflow Static State](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Workflow%20Static%20State) - Тестовое действие Workflow для проверки сохранения состояние класса между вызовами.

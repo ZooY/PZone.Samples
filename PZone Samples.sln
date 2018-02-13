@@ -95,6 +95,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DI", "DI", "{DD31C0B0-F046-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninject Deserialization", "DI\Ninject Deserialization\Ninject Deserialization.csproj", "{69029A3E-4DB4-436C-878F-7A1FF9950832}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plug-in Dependencies", "MS CRM\MS CRM 2016\Plug-in Dependencies\Plug-in Dependencies.csproj", "{A8D67CA0-968B-4F94-82CD-09CAC5352F4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{69029A3E-4DB4-436C-878F-7A1FF9950832}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69029A3E-4DB4-436C-878F-7A1FF9950832}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69029A3E-4DB4-436C-878F-7A1FF9950832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D67CA0-968B-4F94-82CD-09CAC5352F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D67CA0-968B-4F94-82CD-09CAC5352F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D67CA0-968B-4F94-82CD-09CAC5352F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D67CA0-968B-4F94-82CD-09CAC5352F4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -254,5 +260,6 @@ Global
 		{7068FECB-846E-4B8C-97F2-1CCDEA098B9B} = {4CEA8F0F-D0FA-4D64-A0EC-ED1717D8C369}
 		{2540B44C-B1A7-49D4-804E-EDBA51174260} = {00B0B76B-7713-45BA-8270-490651FAF7E0}
 		{69029A3E-4DB4-436C-878F-7A1FF9950832} = {DD31C0B0-F046-42AB-AED0-AC5D92C23230}
+		{A8D67CA0-968B-4F94-82CD-09CAC5352F4D} = {4CEA8F0F-D0FA-4D64-A0EC-ED1717D8C369}
 	EndGlobalSection
 EndGlobal
