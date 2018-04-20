@@ -6,7 +6,7 @@ namespace PZone.Samples
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var connectionString = "Database=БАЗА;Data Source=СЕРВЕР;User Id=ПОЛЬЗОВАТЕЛЬ;Password=ПАРОЛЬ";
             // БАЗА - имя базы данных (схемы) в MySQL
