@@ -1,5 +1,6 @@
 * **C#**
   * [Cast Deserialized Object](https://github.com/ZooY/PZone.Samples/tree/master/CSharp/Cast%20Deserialized%20Object) - Приведение типов объектов после десериализации.
+  * [Type Names](https://github.com/ZooY/PZone.Samples/tree/master/CSharp/Type%20Names) - Пример получения имени типа разной степени подробности.
 * **Files**
   * [File to Base64 String](https://github.com/ZooY/PZone.Samples/tree/master/Files/File%20to%20Base64%20String) - Пример преобразования файла в строку Base64.
 * **DB**

@@ -3,6 +3,9 @@
 
 namespace PZone.Samples
 {
+    /// <summary>
+    /// Пример получения имени типа разной степени подробности.
+    /// </summary>
     class Program
     {
         static void Main()
