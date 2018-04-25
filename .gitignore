@@ -76,3 +76,5 @@ MS CRM/MS CRM 2016/Tools/bin/
 MS CRM/MS CRM 2016/Tools/obj/
 XML/XML Serialize/obj/
 XML/XML Serialize/bin/
+MQ/RabbitMQ/RabbitMQ Request Context/bin/
+MQ/RabbitMQ/RabbitMQ Request Context/obj/

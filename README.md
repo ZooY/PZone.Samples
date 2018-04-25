@@ -13,6 +13,7 @@
     * [RabbitMQ Consumer](https://github.com/ZooY/PZone.Samples/tree/master/MQ/RabbitMQ/RabbitMQ%20Consumer) - Пример создания прослушивателя очереди.
     * [RabbitMQ Read Queue](https://github.com/ZooY/PZone.Samples/tree/master/MQ/RabbitMQ/RabbitMQ%20Read%20Queue) - Чтение одного сообщения из очереди RabbitMQ.
     * [RabbitMQ Write to Queue](https://github.com/ZooY/PZone.Samples/tree/master/MQ/RabbitMQ/RabbitMQ%20Write%20to%20Queue) - Отправка одного сообщения в точку обмена.
+    * [RabbitMQ Request Context](https://github.com/ZooY/PZone.Samples/tree/master/MQ/RabbitMQ/RabbitMQ%20Request%20Context) - Пример создания контекста обработки запроса, доступного через статическое свойство из любой точки кода.
 * **Net**
   * [CheckAvailability](https://github.com/ZooY/PZone.Samples/tree/master/Net/CheckAvailability) - Примеры проверки доступности различных ресурсов: физических серверов, программных веб-серверов, сайтов.
 * **Web**

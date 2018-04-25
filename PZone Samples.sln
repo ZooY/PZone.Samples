@@ -107,6 +107,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared Variables", "MS CRM\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Type Names", "CSharp\Type Names\Type Names.csproj", "{E0995040-EE6A-453E-836C-730AADE965D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ Request Context", "MQ\RabbitMQ\RabbitMQ Request Context\RabbitMQ Request Context.csproj", "{14FE5B80-DA53-4E0E-82AD-0752A4218EF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -245,6 +247,10 @@ Global
 		{E0995040-EE6A-453E-836C-730AADE965D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0995040-EE6A-453E-836C-730AADE965D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0995040-EE6A-453E-836C-730AADE965D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14FE5B80-DA53-4E0E-82AD-0752A4218EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14FE5B80-DA53-4E0E-82AD-0752A4218EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14FE5B80-DA53-4E0E-82AD-0752A4218EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14FE5B80-DA53-4E0E-82AD-0752A4218EF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -291,5 +297,6 @@ Global
 		{47A81171-3354-44A6-9D30-97C5B332A5AE} = {82364C53-6DA2-420E-80C4-09F6EDA8E337}
 		{6B89F6D5-2767-479D-AB8B-214ABD69F60D} = {4CEA8F0F-D0FA-4D64-A0EC-ED1717D8C369}
 		{E0995040-EE6A-453E-836C-730AADE965D9} = {E9EE2FA8-0B35-49B5-A0A0-2F28A907AB3F}
+		{14FE5B80-DA53-4E0E-82AD-0752A4218EF4} = {45C4F822-5564-46A1-BFB5-BD22FC1E4259}
 	EndGlobalSection
 EndGlobal
