@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body { font-family: "Segoe UI"; padding: 0; margin: 0; }
+        section img { 
+            float: left; margin: 0 20px 0 0; width: 150px; height: 150px;
+            -ms-border-radius: 75px; -moz-border-radius: 75px; -webkit-border-radius: 75px; border-radius: 75px;
+        }
+        .content { width: 600px; margin: 0 auto; text-align: justify; }
+        .content:after { content: ""; display: block; clear: both; }
+        h1 { margin: 0; }
+        p { margin-bottom: 0; }
+        
+        .wrapper { 
+            width: 100%; 
+            margin: 0 auto; 
+            padding: 20px 0; 
+            -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+        }
+        section:after, header:after { 
+            content: "";
+            display: block;
+            height: 500px;
+            width: 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6); -ms-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6); -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6); box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
+            -ms-background-size: cover; background-size: cover;
+        }
+
+        #vv:after { background-image: url(img/vv_bg.jpg); }
+        #bo:after { background-image: url(img/bo_bg.jpg); }
+    </style>
+</head>
+<body>
+    <section id="vv">
+        <div class="wrapper">
+            <div class="content">
+                <img src="img/vv.png" alt="Владимир Высоцкий" />
+                <h1>Влади́мир Семёнович Высо́цкий</h1>
+                <p>Cоветский актёр, поэт и автор-исполнитель песен, автор прозаических произведений. Лауреат Государственной премии СССР (1987, посмертно).</p>
+            </div>
+        </div>
+    </section>
+    <section id="bo">
+        <div class="wrapper">
+            <div class="content">
+                <img src="img/bo.png" alt="Булат Окуджава" />
+                <h1>Була́т Ша́лвович Окуджа́ва</h1>
+                <p>Cоветский и российский поэт, бард, прозаик и сценарист, композитор. Автор около двухсот авторских и эстрадных песен, написанных на собственные стихи, один из наиболее ярких представителей жанра авторской песни в 1950-е—1980-е годы.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
