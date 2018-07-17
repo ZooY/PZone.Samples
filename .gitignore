@@ -82,3 +82,10 @@ CSharp/Type Values/bin/
 CSharp/Type Values/obj/
 Web/HTML/Change Background On Scroll/bin/
 Web/HTML/Change Background On Scroll/obj/
+Web/SignalR/Self Hosted/SignalR Client/bin/
+Web/SignalR/Self Hosted/SignalR Client/obj/
+Web/SignalR/Self Hosted/SignalR Server/bin/
+Web/SignalR/Self Hosted/SignalR Server/obj/
+Web/Web API/Web API OWIN/bin/
+Web/Web API/Web API OWIN/obj/
+Web/Web API/Web API OWIN/Web API OWIN.csproj.user

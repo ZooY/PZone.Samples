@@ -17,11 +17,15 @@
 * **Net**
   * [CheckAvailability](https://github.com/ZooY/PZone.Samples/tree/master/Net/CheckAvailability) - Примеры проверки доступности различных ресурсов: физических серверов, программных веб-серверов, сайтов.
 * **Web**
+  * HTML
+    * [Change Background On Scroll](https://github.com/ZooY/PZone.Samples/tree/master/Web/HTML/Change%20Background%20On%20Scroll) - Изменение фона при прокрутке содержимого.
   * MVC
     * MVC 5
       * [Identity without EF](https://github.com/ZooY/PZone.Samples/tree/master/Web/MVC/MVC%205/Identity%20without%20EF) - Пример реализации авторизации в MVC 5 без использования штатной базы данных и Entity Framework. Подробное описание [тут](http://www.pzone.ru/web/asp-net/mvc5-identity-without-ef/).
       * [Identity without EF Ext Login](https://github.com/ZooY/PZone.Samples/tree/master/Web/MVC/MVC%205/Identity%20without%20EF%20Ext%20Login) - Пример реализации авторизации в MVC 5 без использования штатной базы данных и Entity Framework, а также с проверкой соответствия логина/пароля с помощью внешнего сервиса.
       * [OWIN](https://github.com/ZooY/PZone.Samples/tree/master/Web/MVC/MVC%205/OWIN) - Пример создания "чистого" проекта MVC-сайта на OWIN.
+  * Web API
+    * [Web API OWIN](https://github.com/ZooY/PZone.Samples/tree/master/Web/Web%20API/Web%20API%20OWIN) - Пример создания "чистого" проекта Web API на OWIN.
 * **MS CRM** 
   * MS CRM 2016 
     * [Create Annotation](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Create%20Annotation) - Пример создания примечания, в том числе с вложением.
