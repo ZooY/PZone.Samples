@@ -1,6 +1,10 @@
 * **C#**
+  * [Async](https://github.com/ZooY/PZone.Samples/tree/master/CSharp/Async) - Пример работы с заданиями (Task).
   * [Cast Deserialized Object](https://github.com/ZooY/PZone.Samples/tree/master/CSharp/Cast%20Deserialized%20Object) - Приведение типов объектов после десериализации.
+  * [Pass Method Parameters](https://github.com/ZooY/PZone.Samples/tree/master/CSharp/Pass%20Method%20Parameters) - Передача параметров различных типов в методы.
   * [Type Names](https://github.com/ZooY/PZone.Samples/tree/master/CSharp/Type%20Names) - Пример получения имени типа разной степени подробности.
+  * [Type Values](https://github.com/ZooY/PZone.Samples/tree/master/CSharp/Type%20Values) - Исследование типов значений int, decimal, double.
+  * [MEF](https://github.com/ZooY/PZone.Samples/tree/master/CSharp/MEF) - Пример простейшей программы, использующей MEF для загрузки плагинов.
 * **Files**
   * [File to Base64 String](https://github.com/ZooY/PZone.Samples/tree/master/Files/File%20to%20Base64%20String) - Пример преобразования файла в строку Base64.
 * **DB**

@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Async
+namespace PZone.Samples
 {
     class Program
     {

@@ -89,3 +89,12 @@ Web/SignalR/Self Hosted/SignalR Server/obj/
 Web/Web API/Web API OWIN/bin/
 Web/Web API/Web API OWIN/obj/
 Web/Web API/Web API OWIN/Web API OWIN.csproj.user
+CSharp/MEF/MEF Plug-in 1/bin/
+CSharp/MEF/MEF Plug-in 1/obj/
+CSharp/MEF/MEF Plug-in 2/bin/
+CSharp/MEF/MEF Plug-in 2/obj/
+CSharp/MEF/MEF Program/bin/
+CSharp/MEF/MEF Program/obj/
+Web/MVC/MVC 5/Identity without EF/Identity without EF.csproj.user
+Web/JS/Charts/Charts.csproj.user
+Web/HTML/Change Background On Scroll/Change Background On Scroll.csproj.user
