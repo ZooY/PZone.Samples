@@ -16,11 +16,10 @@ namespace PZone.Samples
         {
             var serviceUrl = "http://chcrmtestapp01/TEST01/XRMServices/2011/Organization.svc";
 
-            var pluginAssemblyName = "Npf.LookupTools";
+            var pluginAssemblyName = "PZone.SomeTools";
             var pluginAssemblyVersion = "1.2.0.0";
 
-            var credentials = new ClientCredentials();
-            credentials.Windows.ClientCredential = CredentialCache.DefaultNetworkCredentials;
+            var credentials = new ClientCredentials { Windows = { ClientCredential = CredentialCache.DefaultNetworkCredentials } };
             using (var service = new OrganizationServiceProxy(new Uri(serviceUrl), null, credentials, null))
             {
                 // Получаем ID сборки.
