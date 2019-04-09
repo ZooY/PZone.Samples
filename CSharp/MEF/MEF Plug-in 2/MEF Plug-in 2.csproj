@@ -36,7 +36,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MEF Program\MEF Program.csproj">
       <Project>{88352d12-981c-4425-9e69-ba09c9b8b7d8}</Project>
-      <Name>Jobs Service</Name>
+      <Name>MEF Program</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

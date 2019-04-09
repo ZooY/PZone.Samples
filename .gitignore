@@ -1,107 +1,33 @@
-packages/
-Web/MVC/MVC 5/Identity without EF/bin/
-Web/MVC/MVC 5/Identity without EF/obj/
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Remainings from resolving conflicts in Source Control
+*.orig
+
+# Visual Studio temp something
 .vs/
-Web/MVC/MVC 5/Identity without EF Ext Login/bin/
-Web/MVC/MVC 5/Identity without EF Ext Login/obj/
-Web/MVC/MVC 5/User Info Page Block/bin/
-Web/MVC/MVC 5/User Info Page Block/obj/
-MS CRM/MS CRM 2016/Discovery Service Connection/bin/
-MS CRM/MS CRM 2016/Discovery Service Connection/obj/
-PDF/iTextSharp/Fill PDF Template/bin/
-PDF/iTextSharp/Fill PDF Template/obj/
-MS CRM/MS CRM 2016/Create Annotation/bin/
-MS CRM/MS CRM 2016/Create Annotation/obj/
-MS CRM/MS CRM 2016/Entity Metadata/bin/
-MS CRM/MS CRM 2016/Entity Metadata/obj/
-MS CRM/MS CRM 2016/Plug-in Static State/bin/
-MS CRM/MS CRM 2016/Plug-in Static State/obj/
-MS CRM/MS CRM 2016/Workflow Static State/bin/
-MS CRM/MS CRM 2016/Workflow Static State/obj/
-MS CRM/MS CRM 2016/WebResource Dependencies/bin/
-MS CRM/MS CRM 2016/WebResource Dependencies/obj/
-Web/JS/Charts/bin/
-Web/JS/Charts/obj/
-File to Base64 String/obj/
-File to Base64 String/bin/
-Files/File to Base64 String/bin/
-Files/File to Base64 String/obj/
-MySQL Connection/bin/
-MySQL Connection/obj/
-MQ/RabbitMQ/RabbitMQ Consumer/bin/
-MQ/RabbitMQ/RabbitMQ Consumer/obj/
-MQ/RabbitMQ/RabbitMQ Read Queue/bin/
-MQ/RabbitMQ/RabbitMQ Read Queue/obj/
-MQ/RabbitMQ/RabbitMQ Write to Queue/bin/
-MQ/RabbitMQ/RabbitMQ Write to Queue/obj/
-DB/MySQL/MySQL Connection/obj/
-MQ/RabbitMQ/Client-Server/RabbitMQ Lib/bin/
-MQ/RabbitMQ/Client-Server/RabbitMQ Lib/obj/
-MQ/RabbitMQ/Client-Server/RabbitMQ Server/bin/
-MQ/RabbitMQ/Client-Server/RabbitMQ Server/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
-MQ/RabbitMQ/Client-Server/RabbitMQ Server/obj/
-MQ/RabbitMQ/RabbitMQ Client/bin/
-MQ/RabbitMQ/RabbitMQ Client/obj/
-DB/MySQL/MySQL Connection/bin/
-CSharp/Async/bin/
-CSharp/Async/obj/
-MQ/RabbitMQ/RabbitMQ Async Consumer/bin/
-MQ/RabbitMQ/RabbitMQ Async Consumer/obj/
-Web/MVC/MVC 5/OWIN/bin/
-Web/MVC/MVC 5/OWIN/obj/
-CSharp/Cast Deserialized Object/bin/
-CSharp/Cast Deserialized Object/obj/
-Windows/WIndows Service/bin/
-Windows/WIndows Service/obj/
-CSharp/Pass Method Parameters/bin/
-CSharp/Pass Method Parameters/obj/
-Net/Ping/bin/
-Net/Ping/obj/
-CheckAvailability/bin/
-CheckAvailability/obj/
-MS CRM/MS CRM 2016/Picklist Items/bin/
-MS CRM/MS CRM 2016/Picklist Items/obj/
-Net/CheckAvailability/bin/
-Net/CheckAvailability/obj/
-DI/Ninject Deserialization/bin/
-DI/Ninject Deserialization/obj/
-PZone Samples.sln.DotSettings.user
-MS CRM/MS CRM 2016/Plug-in Dependencies/bin/
-MS CRM/MS CRM 2016/Plug-in Dependencies/obj/
-CSharp/Type Names/bin/
-CSharp/Type Names/obj/
-MS CRM/MS CRM 2016/Shared Variables/bin/
-MS CRM/MS CRM 2016/Shared Variables/obj/
-MS CRM/MS CRM 2016/Tools/bin/
-MS CRM/MS CRM 2016/Tools/obj/
-XML/XML Serialize/obj/
-XML/XML Serialize/bin/
-MQ/RabbitMQ/RabbitMQ Request Context/bin/
-MQ/RabbitMQ/RabbitMQ Request Context/obj/
-CSharp/Type Values/bin/
-CSharp/Type Values/obj/
-Web/HTML/Change Background On Scroll/bin/
-Web/HTML/Change Background On Scroll/obj/
-Web/SignalR/Self Hosted/SignalR Client/bin/
-Web/SignalR/Self Hosted/SignalR Client/obj/
-Web/SignalR/Self Hosted/SignalR Server/bin/
-Web/SignalR/Self Hosted/SignalR Server/obj/
-Web/Web API/Web API OWIN/bin/
-Web/Web API/Web API OWIN/obj/
-Web/Web API/Web API OWIN/Web API OWIN.csproj.user
-CSharp/MEF/MEF Plug-in 1/bin/
-CSharp/MEF/MEF Plug-in 1/obj/
-CSharp/MEF/MEF Plug-in 2/bin/
-CSharp/MEF/MEF Plug-in 2/obj/
-CSharp/MEF/MEF Program/bin/
-CSharp/MEF/MEF Program/obj/
-Web/MVC/MVC 5/Identity without EF/Identity without EF.csproj.user
-Web/JS/Charts/Charts.csproj.user
-Web/HTML/Change Background On Scroll/Change Background On Scroll.csproj.user
-MS CRM/MS CRM 2016/Connect to CRM/bin/
-MS CRM/MS CRM 2016/Connect to CRM/obj/
-Web/MVC/MVC 5/OWIN/OWIN.csproj.user
-Web/SignalR/Self Hosted/SignalR Client/SignalR Client.csproj.user
-Web/MVC/MVC 5/Identity without EF Ext Login/Identity without EF Ext Login.csproj.user
-MS CRM/MS CRM 2016/Plug-in Update/obj/
-MS CRM/MS CRM 2016/Plug-in Update/bin/
+
+# Other Extensions
+*.vspscc
+
+# NuGet Packages
+**/packages/
+
+# ReSharper files
+*.[Dd]otSettings
