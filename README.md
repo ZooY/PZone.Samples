@@ -38,6 +38,7 @@
     * [Entity Metadata](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Entity%20Metadata) - Пример получения метаданных сущностей CRM.
 	* [Picklist Items](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Picklist%20Items) - Получение списка возможных значений атрибута типа Picklist.
     * [Plug-in Dependencies](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Plug-in%20Dependencies) - Пример получения зависимостей для плагина.
+	* [Plug-in Organization Service Users](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Plug-in%20Organization%20Service%20Users) - Пример плагина, показывающий от имени каких пользователей выполняется плагин и происходит доступ к данным.	
     * [Plug-in Static State](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Plug-in%20Static%20State) - Тестовый плагин для проверки сохранения состояние класса между вызовами.
     * [Plug-in Update](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/Plug-in%20Update) - Программное обновление сборки плагина.
     * [WebResource Dependencies](https://github.com/ZooY/PZone.Samples/tree/master/MS%20CRM/MS%20CRM%202016/WebResource%20Dependencies) - Пример получения зависимостей для веб-ресурса.
