@@ -20,6 +20,10 @@
     * [RabbitMQ Request Context](https://github.com/ZooY/PZone.Samples/tree/master/MQ/RabbitMQ/RabbitMQ%20Request%20Context) - Пример создания контекста обработки запроса, доступного через статическое свойство из любой точки кода.
 * **Net**
   * [CheckAvailability](https://github.com/ZooY/PZone.Samples/tree/master/Net/CheckAvailability) - Примеры проверки доступности различных ресурсов: физических серверов, программных веб-серверов, сайтов.
+  **PDF**
+  * iTextSharp
+    * [Fill PDF Template](https://github.com/ZooY/PZone.Samples/tree/master/PDF/iTextSharp/Fill%20PDF%20Template) - Пример заполнения формы PDF.	
+	* [Insert Image into PDF](https://github.com/ZooY/PZone.Samples/tree/master/PDF/iTextSharp/Insert Image into PDF) - Пример добавления картинки а готовый документ PDF.
 * **Web**
   * HTML
     * [Change Background On Scroll](https://github.com/ZooY/PZone.Samples/tree/master/Web/HTML/Change%20Background%20On%20Scroll) - Изменение фона при прокрутке содержимого.
